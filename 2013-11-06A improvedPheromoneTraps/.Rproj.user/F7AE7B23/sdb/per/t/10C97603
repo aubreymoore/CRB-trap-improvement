@@ -1,0 +1,16 @@
+{
+    "contents" : "require(sqldf)\ndata = read.csv(\"cleandata.csv\", header=TRUE)\nx = sqldf(\"\n           SELECT \n             SUBSTR(trapType,-2,2) AS lure,\n             mg/days AS rr \n           FROM data\n           WHERE \n             trapType LIKE '%L' \n             AND lureNote <> 'rr unreliable'\n             AND mg <> 'NA'\n           \")\nt.test(rr~lure, x)\nboxplot(rr~lure, x, ylab = 'mg per day')",
+    "created" : 1383697471687.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4186002192",
+    "id" : "10C97603",
+    "lastKnownWriteTime" : 1383704330,
+    "path" : "~/CRB Tech Reports/improvedPheromoneTraps/releaseRates.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

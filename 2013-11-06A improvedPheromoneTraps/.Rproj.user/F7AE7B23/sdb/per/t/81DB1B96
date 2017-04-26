@@ -1,0 +1,16 @@
+{
+    "contents" : "require(sqldf)\ndata = read.csv(\"cleandata.csv\", header=TRUE)\nx = sqldf(\"\n          SELECT\n            trapType,\n            CHARINDEX('U',trapType, 0)>0 AS UV,\n            1.0*(maleCRB + femaleCRB)/days AS trapRate\n          FROM data\n          WHERE \n            trapType LIKE '%L' \n          \")\nt.test(trapRate~UV, x)\nboxplot(trapRate~UV, x, ylab = 'beetles trapped per day')",
+    "created" : 1383704459125.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "320447793",
+    "id" : "81DB1B96",
+    "lastKnownWriteTime" : 1383708841,
+    "path" : "~/CRB Tech Reports/improvedPheromoneTraps/withWithoutUV.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

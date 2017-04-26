@@ -1,0 +1,16 @@
+{
+    "contents" : "require(sqldf)\ndata = read.csv(\"cleandata.csv\", header=TRUE)\nx = sqldf(\"\n          SELECT\n            SUM(maleCRB) AS m, SUM(femaleCRB) AS f\n          FROM data\n          WHERE \n            trapType LIKE '%L' \n          \")\nx\nbinom.test(c(x$m, x$f), 0.5)",
+    "created" : 1383708077187.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2459059803",
+    "id" : "56C36594",
+    "lastKnownWriteTime" : 1383708778,
+    "path" : "~/CRB Tech Reports/improvedPheromoneTraps/sexes.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

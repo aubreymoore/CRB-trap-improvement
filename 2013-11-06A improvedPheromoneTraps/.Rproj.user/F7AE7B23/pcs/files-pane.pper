@@ -1,0 +1,9 @@
+{
+    "path" : "~/CRB Tech Reports/improvedPheromoneTraps",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+location,cycle,days,station,trapType,mg,maleCRB,femaleCRB,lureNote,ledNote
+Chargalauf,1,14,1,T-SL,637,0,0,rr unreliable,
+Chargalauf,1,14,2,T-UV-RL,675,0,0,rr unreliable,
+Chargalauf,1,14,3,T-UV,0,0,0,,
+Chargalauf,1,14,4,T,0,0,0,,
+Chargalauf,1,14,5,T-UV-SL,664,0,0,rr unreliable,
+Chargalauf,1,14,6,T-RL,633,1,0,rr unreliable,
+Chargalauf,2,18,1,T-RL,232,0,0,rr unreliable,
+Chargalauf,2,18,2,T,0,0,0,,
+Chargalauf,2,18,3,T-UV-SL,351,0,0,rr unreliable,
+Chargalauf,2,18,4,T-SL,343,0,0,rr unreliable,
+Chargalauf,2,18,5,T-UV,0,0,0,,
+Chargalauf,2,18,6,T-UV-RL,292,0,0,rr unreliable,
+Chargalauf,3,10,1,T,0,0,0,,
+Chargalauf,3,10,2,T-RL,10,0,0,,
+Chargalauf,3,10,3,T-SL,181,0,0,,
+Chargalauf,3,10,4,T-UV,0,0,0
+Chargalauf,3,10,5,T-UV-RL,30,0,0
+Chargalauf,3,10,6,T-UV-SL,178,0,0
+Chargalauf,4,14,1,T-UV,0,0,0
+Chargalauf,4,14,2,T-SL,201,0,0
+Chargalauf,4,14,3,T-UV-RL,8,0,0
+Chargalauf,4,14,4,T-UV-SL,193,0,0
+Chargalauf,4,14,5,T-RL,12,0,1
+Chargalauf,4,14,6,T,0,0,0
+Chargalauf,5,14,1,T-UV-RL,23,1,0
+Chargalauf,5,14,2,T-UV-SL,292,0,0
+Chargalauf,5,14,3,T,0,0,0
+Chargalauf,5,14,4,T-RL,33,0,0
+Chargalauf,5,14,5,T-SL,215,0,0
+Chargalauf,5,14,6,T-UV,0,0,0
+Chargalauf,6,14,1,T-UV-SL,212,0,0
+Chargalauf,6,14,2,T-UV,0,0,0,
+Chargalauf,6,14,3,T-RL,31,0,0,
+Chargalauf,6,14,4,T-UV-RL,38,0,0,
+Chargalauf,6,14,5,T,0,0,0,
+Chargalauf,6,14,6,T-SL,226,0,0,
+GICC Dededo Golf Course,1,19,1,T-RL,208,1,0,rr unreliable
+GICC Dededo Golf Course,1,19,2,T-UV-RL,247,0,1,rr unreliable
+GICC Dededo Golf Course,1,19,3,T-UV-SL,253,3,1,rr unreliable
+GICC Dededo Golf Course,1,19,4,T,0,0,0,
+GICC Dededo Golf Course,1,19,5,T-SL,252,1,1,rr unreliable
+GICC Dededo Golf Course,1,19,6,T-UV,0,0,0,
+GICC Dededo Golf Course,2,10,1,T-UV-RL,13,1,1,rr unreliable
+GICC Dededo Golf Course,2,10,2,T,0,0,0,
+GICC Dededo Golf Course,2,10,3,T-SL,176,0,0,rr unreliable
+GICC Dededo Golf Course,2,10,4,T-UV-SL,165,0,0,rr unreliable
+GICC Dededo Golf Course,2,10,5,T-UV,0,0,0,
+GICC Dededo Golf Course,2,10,6,T-RL,18,0,2,rr unreliable,
+GICC Dededo Golf Course,3,14,1,T-UV-SL,197,0,0,,
+GICC Dededo Golf Course,3,14,2,T-UV,0,0,0,,
+GICC Dededo Golf Course,3,14,3,T-RL,43,0,0,,
+GICC Dededo Golf Course,3,14,4,T-UV-RL,13,0,0,,
+GICC Dededo Golf Course,3,14,5,T,0,0,0,,
+GICC Dededo Golf Course,3,14,6,T-SL,180,1,1,,
+GICC Dededo Golf Course,4,14,1,T-SL,186,1,0,,
+GICC Dededo Golf Course,4,14,2,T-UV-SL,234,0,0,,
+GICC Dededo Golf Course,4,14,3,T-UV,0,0,0,,
+GICC Dededo Golf Course,4,14,4,T-RL,21,0,0,,
+GICC Dededo Golf Course,4,14,5,T-UV-RL,17,0,0,,
+GICC Dededo Golf Course,4,14,6,T,0,0,0,,
+GICC Dededo Golf Course,5,14,1,T,0,0,0,,
+GICC Dededo Golf Course,5,14,2,T-SL,171,0,0,,
+GICC Dededo Golf Course,5,14,3,T-UV-RL,28,0,0,,solar
+GICC Dededo Golf Course,5,14,4,T-UV,0,0,0,,solar
+GICC Dededo Golf Course,5,14,5,T-RL,38,0,0,,
+GICC Dededo Golf Course,5,14,6,T-UV-SL,201,4,2,,solar
+GICC Dededo Golf Course,6,17,1,T-UV,0,0,0,,solar
+GICC Dededo Golf Course,6,17,2,T-RL,33,0,0,,
+GICC Dededo Golf Course,6,17,3,T,0,0,0,,
+GICC Dededo Golf Course,6,17,4,T-SL,217,0,0,,
+GICC Dededo Golf Course,6,17,5,T-UV-SL,227,0,2,,solar
+GICC Dededo Golf Course,6,17,6,T-UV-RL,46,5,2,,solar
+LeoPalace,1,14,1,T-UV-RL,608,2,1,rr unreliable,
+LeoPalace,1,14,2,T,0,0,0,,
+LeoPalace,1,14,3,T-UV-SL,688,0,3,rr unreliable,
+LeoPalace,1,14,4,T-SL,656,0,0,rr unreliable,
+LeoPalace,1,14,5,T-UV,0,0,0,,
+LeoPalace,1,14,6,T-RL,614,0,0,rr unreliable,
+LeoPalace,2,18,1,T,0,0,0,,
+LeoPalace,2,18,2,T-SL,330,0,0,rr unreliable
+LeoPalace,2,18,3,T-UV,0,0,1,
+LeoPalace,2,18,4,T-UV-SL,281,0,1,rr unreliable
+LeoPalace,2,18,5,T-RL,212,0,0,rr unreliable
+LeoPalace,2,18,6,T-UV-RL,225,0,4,rr unreliable
+LeoPalace,3,10,1,T-RL,16,0,0,
+LeoPalace,3,10,2,T-UV,0,0,0,
+LeoPalace,3,10,3,T,0,0,0,
+LeoPalace,3,10,4,T-UV-RL,38,0,1,
+LeoPalace,3,10,5,T-SL,170,0,0,
+LeoPalace,3,10,6,T-UV-SL,178,0,0,
+LeoPalace,4,14,1,T-SL,227,0,0,
+LeoPalace,4,14,2,T-UV-RL,11,0,0,
+LeoPalace,4,14,3,T-RL,14,0,0,
+LeoPalace,4,14,4,T,0,0,0,
+LeoPalace,4,14,5,T-UV-SL,205,0,0,
+LeoPalace,4,14,6,T-UV,0,0,0,
+LeoPalace,5,14,1,T-UV-SL,254,1,2,
+LeoPalace,5,14,2,T-RL,30,0,0,
+LeoPalace,5,14,3,T-UV-RL,9,0,0,
+LeoPalace,5,14,4,T-UV,0,0,0,
+LeoPalace,5,14,5,T,0,0,0,
+LeoPalace,5,14,6,T-SL,224,0,0,
+LeoPalace,6,14,1,T-UV,0,0,0,
+LeoPalace,6,14,2,T-UV-SL,222,1,0,
+LeoPalace,6,14,3,T-SL,209,0,0,
+LeoPalace,6,14,4,T-RL,29,0,0,
+LeoPalace,6,14,5,T-UV-RL,29,0,0,
+LeoPalace,6,14,6,T,0,0,0,
+Temple,1,14,1,T-RL,647,0,0,rr unreliable
+Temple,1,14,2,T-UV,0,0,0,
+Temple,1,14,3,T,0,0,0,
+Temple,1,14,4,T-UV-SL,632,2,1,rr unreliable
+Temple,1,14,5,T-UV-RL,604,0,0,rr unreliable
+Temple,1,14,6,T-SL,651,0,0,rr unreliable
+Temple,2,18,1,T-UV-SL,313,0,0,rr unreliable
+Temple,2,18,2,T-UV-RL,244,1,0,rr unreliable
+Temple,2,18,3,T-SL,286,0,0,rr unreliable
+Temple,2,18,4,T,0,0,0,
+Temple,2,18,5,T-UV,0,0,0,
+Temple,2,18,6,T-RL,203,0,0,rr unreliable
+Temple,3,10,1,T-SL,78,0,0,
+Temple,3,10,2,T-RL,7,0,0,
+Temple,3,10,3,T-UV-SL,74,0,0,
+Temple,3,10,4,T-UV-RL,5,0,0,
+Temple,3,10,5,T,0,0,0,
+Temple,3,10,6,T-UV,0,0,0,
+Temple,4,14,1,T-UV,0,0,0,
+Temple,4,14,2,T,0,0,0
+Temple,4,14,3,T-UV-RL,9,0,0
+Temple,4,14,4,T-SL,183,0,0
+Temple,4,14,5,T-RL,8,0,0
+Temple,4,14,6,T-UV-SL,180,0,0
+Temple,5,14,1,T-UV-RL,21,0,0
+Temple,5,14,2,T-SL,186,1,0
+Temple,5,14,3,T-RL,27,0,0
+Temple,5,14,4,T-UV,0,0,0
+Temple,5,14,5,T-UV-SL,190,0,0
+Temple,5,14,6,T,0,0,0
+Temple,6,14,1,T,0,0,0
+Temple,6,14,2,T-UV-SL,216,0,0
+Temple,6,14,3,T-UV,0,0,0
+Temple,6,14,4,T-RL,28,0,0
+Temple,6,14,5,T-SL,200,0,0
+Temple,6,14,6,T-UV-RL,22,0,0,
+Windward,1,13,1,T-RL,89,1,1,rr unreliable
+Windward,1,13,2,T-UV-SL,625,2,1,rr unreliable
+Windward,1,13,3,T-UV-RL,668,5,4,rr unreliable
+Windward,1,13,4,T-UV,0,0,0,
+Windward,1,13,5,T-SL,726,0,1,rr unreliable
+Windward,1,13,6,T,0,0,0,
+Windward,2,19,1,T,0,0,0,
+Windward,2,19,2,T-SL,402,0,0,rr unreliable
+Windward,2,19,3,T-UV,0,0,0,
+Windward,2,19,4,T-UV-RL,NA,0,0,rr unreliable
+Windward,2,19,5,T-RL,261,1,0,rr unreliable
+Windward,2,19,6,T-UV-SL,356,1,0,rr unreliable
+Windward,3,10,1,T-UV-SL,175,4,2,
+Windward,3,10,2,T-RL,44,0,0,
+Windward,3,10,3,T,0,0,0,
+Windward,3,10,4,T-SL,179,0,0
+Windward,3,10,5,T-UV-RL,42,0,0
+Windward,3,10,6,T-UV,0,0,0
+Windward,4,14,1,T-SL,178,4,1
+Windward,4,14,2,T-UV-RL,14,0,0
+Windward,4,14,3,T-UV-SL,229,4,7
+Windward,4,14,4,T,0,0,0
+Windward,4,14,5,T-UV,0,0,0
+Windward,4,14,6,T-RL,58,0,0
+Windward,5,14,1,T-UV-RL,27,1,3
+Windward,5,14,2,T-UV,0,0,0
+Windward,5,14,3,T-RL,28,0,0
+Windward,5,14,4,T-UV-SL,264,0,0
+Windward,5,14,5,T,0,0,0
+Windward,5,14,6,T-SL,202,0,0
+Windward,6,14,1,T-UV,0,0,0
+Windward,6,14,2,T,0,0,0,
+Windward,6,14,3,T-SL,241,0,1,
+Windward,6,14,4,T-RL,43,0,0,
+Windward,6,14,5,T-UV-SL,239,0,0,
+Windward,6,14,6,T-UV-RL,30,0,1,
+Yigo,1,14,1,T-UV-SL,NA,0,0,rr unreliable
+Yigo,1,14,2,T-UV-RL,132,0,0,rr unreliable
+Yigo,1,14,3,T-UV,0,0,0,
+Yigo,1,14,4,T,0,0,0,
+Yigo,1,14,5,T-RL,81,0,0,rr unreliable
+Yigo,1,14,6,T-SL,83,3,1,rr unreliable
+Yigo,2,14,1,T-UV,0,0,0,
+Yigo,2,14,2,T-SL,427,0,0,rr unreliable
+Yigo,2,14,3,T-UV-RL,212,0,0,rr unreliable
+Yigo,2,14,4,T-UV-SL,254,0,0,rr unreliable
+Yigo,2,14,5,T,0,0,0,
+Yigo,2,14,6,T-RL,259,5,0,rr unreliable
+Yigo,3,15,1,T,0,0,0,
+Yigo,3,15,2,T-RL,221,0,0,rr unreliable
+Yigo,3,15,3,T-UV-SL,258,0,0,rr unreliable
+Yigo,3,15,4,T-UV,0,0,1,
+Yigo,3,15,5,T-SL,242,0,2,rr unreliable
+Yigo,3,15,6,T-UV-RL,232,2,2,rr unreliable
+Yigo,4,14,1,T-UV-RL,NA,0,0,
+Yigo,4,14,2,T-UV-SL,NA,1,0,
+Yigo,4,14,3,T-SL,NA,0,1,
+Yigo,4,14,4,T-RL,NA,0,0,
+Yigo,4,14,5,T-UV,0,0,0,
+Yigo,4,14,6,T,0,0,0,
+Yigo,5,14,1,T-SL,156,0,0,
+Yigo,5,14,2,T,0,0,0,
+Yigo,5,14,3,T-RL,8,0,0,
+Yigo,5,14,4,T-UV-RL,10,0,0
+Yigo,5,14,5,T-UV-SL,180,4,1
+Yigo,5,14,6,T-UV,0,0,0
+Yigo,6,14,1,T-RL,23,0,0
+Yigo,6,14,2,T-UV,0,0,0
+Yigo,6,14,3,T,0,0,0
+Yigo,6,14,4,T-SL,175,0,0
+Yigo,6,14,5,T-UV-RL,24,0,0
+Yigo,6,14,6,T-UV-SL,181,3,1
