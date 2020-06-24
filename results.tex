@@ -32,6 +32,8 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 \usepackage{framed}
 
+\usepackage{datetime2}
+
 % Prevent page breaks within paragraphs
 % https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
 \widowpenalties 1 10000
@@ -40,11 +42,11 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 %\titlehead{Titlehead}
 
-\title{Notes for Background, Methods, and Reults Sections of the CRB Trap Improvement Article}
+\title{Notes for Background, Methods, and Results Sections of the CRB Trap Improvement Article}
 
 \author{Aubrey Moore}
 
-\date{\today}
+\date{\DTMnow}
 
 
 \maketitle
@@ -63,13 +65,13 @@ For computational details see the Jupyter notebook at:\\
 
 \subsection{Depleted Lures}
 
-In the island-wide trapping program pheromone traps baited with ChemTica oryctalure bubble packs were visited about every 2 weeks. Depleted lures, those with no liquid visible in the bubble pack,  were replaced and this was recorded in the trapping database. Traps with depleted lures caught significantly more beetles than those with non-depleted lures (0.220 vs. 0.092 beetles per trap-visit; p = 2.6E-16 [Welch Two Sample t-test]) (For details see \cite{moore_research_2012}).
+In the island-wide trapping program pheromone traps baited with ChemTica oryctalure bubble packs were visited about every 2 weeks. Depleted lures, those with no liquid visible in the bubble pack,  were replaced and this was recorded in the trapping database. Traps with depleted lures caught significantly more beetles than those with undepleted lures (0.220 vs. 0.092 beetles per trap-visit; $P<0.001$ [Welch Two Sample t-test]) (For details see \cite{moore_research_2012}).
 
 \section{Methods}
 
 \subsection{Pheromone Lures}
 
-We used Oryctalure manufactured by ChemTica. These lures are bubble packs which use a plastic
+We used Oryctalure pheromone dispensers manufactured by ChemTica. These lures are bubble packs which use a plastic
 membrane to regulate the release rate of the CRB aggregation pheromone (ethyl 4-methyloctenate).
 In this experiment, we weighed lures before deployment and after pick up so that we could measure
 field release rates. Preliminary work showed that rain water entered Oryctalures making it impos-
