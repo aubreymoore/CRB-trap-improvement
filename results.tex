@@ -40,7 +40,7 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 %\titlehead{Titlehead}
 
-\title{Data Analysis for CRB Trap Improvement Article}
+\title{Notes for Background, Methods, and Reults Sections of the CRB Trap Improvement Article}
 
 \author{Aubrey Moore}
 
@@ -56,14 +56,56 @@ breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=tru
 
 \pagebreak
 
-\section{Depleted Lures}
+For computational details see the Jupyter notebook at:\\
+\url{https://github.com/aubreymoore/CRB-trap-improvement/blob/master/xtraps.ipynb}
 
-asasas \cite{moore_research_2012}
+\section{Background}
 
-\section{Trap Catch Summary}
+\subsection{Depleted Lures}
+
+In the island-wide trapping program pheromone traps baited with ChemTica oryctalure bubble packs were visited about every 2 weeks. Depleted lures, those with no liquid visible in the bubble pack,  were replaced and this was recorded in the trapping database. Traps with depleted lures caught significantly more beetles than those with non-depleted lures (0.220 vs. 0.092 beetles per trap-visit; p = 2.6E-16 [Welch Two Sample t-test]) (For details see \cite{moore_research_2012}).
+
+\section{Methods}
+
+\subsection{Pheromone Lures}
+
+We used Oryctalure manufactured by Chemtica. These lures are bubble packs which use a plastic
+membrane to regulate the release rate of the CRB aggregation pheromone (ethyl 4-methyloctenate).
+In this experiment, we weighed lures before deployment and after pick up so that we could measure
+field release rates. Preliminary work showed that rain water entered Oryctalures making it impos-
+sible to accurately measure release rates. To solve this problem, we heat-sealed each Oryctalure
+into a thin polyethylene bag, reducing the release rate by about 10\%. 
+
+We made reduced-release
+rate pheromone dispensers by placing 200 microlitres of liquid removed from an Oryctalure into a 2 ml Eppendorf
+centrifuge tube with a 2 mm (5/64 inch) hole drilled in its top. The centrifuge tube was then placed
+in a pottle which acted as a rain and wind shield (\ref{fig:reduced-release-rate-device}).
+
+For details see \cite{moore_technical_2013}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\linewidth]{images/reduced-release-rate-device}
+	\caption{Reduced release rate pheromone dispenser.}
+	\label{fig:reduced-release-rate-device}
+\end{figure}
+
+\hl{I will replace the reduced release rate pheromone dispenser image with a better one which shows holes in bottom of pottle.}
+
+\subsection{Ultraviolet Light Emitting Diodes}
+
+\cite{moore_solar_2013}
+
+\cite{moore_relative_2014}
+
+\clearpage
+
+\section{Results}
+
+\subsection{Trap Catch Summary}
 
 \begin{table}[h]
-	\caption{Caption goes here.}
+	\caption{Capture summary by trap type.}
 	\tiny
 	\centering
 	\begin{tabular}{@{}llccccc@{}}
@@ -79,21 +121,37 @@ asasas \cite{moore_research_2012}
 	\end{tabular}
 \end{table}
 
+\hl{
+	MATT: Can we put letters after the means to signify significant differences? Not sure which multiple comparison test is appropriate for our data. If you are willing to take on this challenge, the raw data are available at:}\\
+\footnotesize{\url{https://github.com/aubreymoore/CRB-trap-improvement/blob/master/trapType-captureRate.csv}}
+
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\linewidth]{images/trapcatch-swarmplot}
-\caption{Swarm plot.}
+\caption{Capture rate by trap type. \hl{MATT: IMHO, this is the best way to display our data, see the Jupyter notebook for a couple of alternatives.}}
 \label{fig:trapcatch-swarmplot}
 \end{figure}
 
+\begin{itemize}
+	\item For all trap types, sex ratio was not significantly different from 50:50 (binomial test).
+	\item For all trap types, most traps contained no beetles at the end of each trap cycle, nominally 2 weeks.
+\end{itemize}
+
+
 \newpage
 
-\section{Capture Rate as a Function of Pheromone Release Rate}
+\subsection{Capture Rate as a Function of Pheromone Release Rate}
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\linewidth]{images/trapcatch-lmplot}
-\caption{Caption.}
+\caption{
+	Capture rate as a function of pheromone release rate for traps with and without ultraviolet light emitting diodes.
+	Lines are ordinary least-squares fits.	
+	The equation for traps without UVLEDs is $y = 0.0059 + 0.0015x$; slope is not significantly different from zero ($p=0.118$).
+	The equation for traps with UVLEDs is $y = 0.0182 + 0.0070x$; slope is significantly different from zero ($p=0.005$).
+	}
 \label{fig:trapcatch-lmplot}
 \end{figure}
 
